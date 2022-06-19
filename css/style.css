@@ -409,6 +409,11 @@ body {
 }
 
 .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper__main {
     max-width: 940px;
     margin: 0 auto;
 }
@@ -444,8 +449,10 @@ body {
 /*Intro styles start*/
 
 .intro {
-    background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%),
+                url("../img/intro.png") no-repeat 96% 74%;
     /*opacity: 0.2;*/
+    /*background-size: contain;*/
     padding-top: 189px;
     /*height: 100vh;*/
     /*background: url("../img/intro.png") no-repeat top;*/
@@ -510,3 +517,54 @@ body {
 /*}*/
 
 /*Intro styles end*/
+
+
+
+/*What we do styles start*/
+
+.what_we_do__wrap {
+    max-height: 1162px;
+    position: relative;
+    background: greenyellow;
+}
+
+.what_we_do__title {
+    max-width: 358px;
+    margin-top: 12px;
+    font-family: 'Gilroy';
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+
+    letter-spacing: 0.05em;
+
+    /* blue_02 */
+
+    color: #316099;
+    position: absolute;
+}
+
+.what_we_do__cards {
+    display: flex;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+
+.what_we_do__card {
+    max-width: 380px;
+    max-height: 525px;
+    background: #FFFFFF;
+    /* shadow1 */
+
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.what_we_do__card:first-child {
+    background-color: brown;
+}
+
+/*What we do styles end*/

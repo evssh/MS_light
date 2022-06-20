@@ -22,7 +22,7 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    /*font: inherit;*/
     vertical-align: baseline;
 }
 
@@ -425,7 +425,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    max-width: 1366px;
+    /*max-width: 1366px;*/
 }
 
 .header__wrapper {
@@ -460,6 +460,7 @@ body {
     /*min-height: 100vh;*/
     max-width: 1366px;
     max-height: 768px;
+    margin: auto;
 }
 
 .intro__title {
@@ -564,7 +565,13 @@ body {
 }
 
 .what_we_do__card:first-child {
-    background-color: brown;
+    background-color: yellow;
+}
+
+.what_we_do__card-man-bring {
+    margin: auto;
+    margin-top: -12px;
+    display: block;
 }
 
 /*What we do styles end*/

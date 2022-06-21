@@ -660,21 +660,125 @@ a:active, a:hover, a:focus {
 
 /*What we do styles end*/
 
-.flex {
-    height: 1000px;
-    width: 800px;
-    background-color: #5A98D0;
 
+
+/*our finished project styles start*/
+
+.our__wrap {
+    max-height: 1118px;
+    margin-bottom: 192px;
+    display: grid;
+    grid-template-rows: 188px 424px 506px;
+    position: inherit;
+}
+
+.our__desc {
     display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap-reverse;
-    align-content: space-between;
-    justify-content: center;
 }
 
-.card {
-    height: 400px;
-    width: 400px;
-    background-color: greenyellow;
-    border: black 1px;
+.our__title {
+    font-family: 'Gilroy';
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+
+    letter-spacing: 0.05em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+    margin-right: 93px;
+    width: 227px;
+    margin-bottom: 96px;
 }
+
+.our__text {
+    max-width: 540px;
+    opacity: 0.6;
+}
+
+.our__smart {
+    background: url("../img/smart.png") no-repeat;
+}
+
+.our__smart-title {
+    font-family: 'Gilroy';
+    font-size: 28px;
+    line-height: 46px;
+    /* identical to box height, or 164% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+    margin-top: 49px;
+    margin-right: 48px;
+    text-align: right;
+}
+
+.our__smart-text {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 46px;
+    /* identical to box height, or 288% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+    text-align: right;
+    margin-right: 49px;
+}
+
+.our__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our__card {
+    width: 422px;
+    height: 417px;
+    background: url("../img/Sparklite.png") no-repeat;
+    margin-top: 89px;
+}
+
+.our__card:last-child {
+    background: url("../img/car.png") no-repeat;
+}
+
+.our__card-title {
+    font-family: 'Gilroy';
+    font-size: 28px;
+    line-height: 46px;
+    /* identical to box height, or 164% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-bottom: 4px;
+}
+
+.our__card-text {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 46px;
+    /* identical to box height, or 288% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+    margin-left: 32px;
+}
+/*our finished project styles end*/

@@ -664,6 +664,9 @@ a:active, a:hover, a:focus {
 
 /*our finished project styles start*/
 
+.our {
+    margin-bottom: 192px;
+}
 .our__wrap {
     max-height: 1118px;
     margin-bottom: 192px;
@@ -782,3 +785,64 @@ a:active, a:hover, a:focus {
     margin-left: 32px;
 }
 /*our finished project styles end*/
+
+
+
+/*Our Beloved Client styles start*/
+
+.client {
+    max-height: 1549px;
+    max-width: 1366px;
+    /* blue_04 */
+
+    background: #5A98D0;
+    border-radius: 200px 0px 0px 0px;
+    margin: auto;
+}
+
+.client__info {
+    margin-top: 96px;
+    margin-bottom: 125px;
+    display: flex;
+    max-height: 92px;
+    max-width: 860px;
+}
+
+/*.client__desc {*/
+/*    display: flex;*/
+/*    max-height: 92px;*/
+/*    max-width: 860px;*/
+/*}*/
+
+.client__title {
+    max-width: 223px;
+    max-height: 92px;
+    font-family: 'Gilroy';
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+    margin-right: 97px;
+}
+
+.client__text {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+
+/*Our Beloved Client styles end*/

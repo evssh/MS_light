@@ -800,12 +800,18 @@ a:active, a:hover, a:focus {
     margin: auto;
 }
 
-.client__info {
+.obc {
     margin-top: 96px;
     margin-bottom: 125px;
-    display: flex;
+    max-height: 256px;
+}
+
+.obc__desc {
+    max-width: 540px;
     max-height: 92px;
-    max-width: 860px;
+    margin-bottom: 111px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*.client__desc {*/
@@ -814,9 +820,7 @@ a:active, a:hover, a:focus {
 /*    max-width: 860px;*/
 /*}*/
 
-.client__title {
-    max-width: 223px;
-    max-height: 92px;
+.obc__title {
     font-family: 'Gilroy';
     font-size: 36px;
     line-height: 46px;
@@ -828,9 +832,11 @@ a:active, a:hover, a:focus {
 
     color: #FFFFFF;
     margin-right: 97px;
+    width: 223px;
+    height: 92px;
 }
 
-.client__text {
+.obc__text {
     font-family: 'Gilroy';
     font-size: 16px;
     line-height: 26px;
@@ -843,6 +849,9 @@ a:active, a:hover, a:focus {
     color: #FFFFFF;
 
     opacity: 0.6;
+
+    max-width: 540px;
+    max-height: 80px;
 }
 
 /*Our Beloved Client styles end*/
